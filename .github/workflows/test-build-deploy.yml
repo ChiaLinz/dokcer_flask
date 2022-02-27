@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ChiaLinz/docker_flask
+          images: ChiaLinz/docker_flask_flask
 
       - name: Build and push
         uses: docker/build-push-action@v2
